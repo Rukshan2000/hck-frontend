@@ -23,7 +23,7 @@ const menuItems = [
 		title: "Dashboard",
 		url: "/dashboard",
 		icon: Home,
-		permission: null, // Everyone can access
+		permission: null, // Admin and staff access the admin dashboard
 	},
 	{
 		title: "Tasks",
@@ -55,12 +55,12 @@ const menuItems = [
 		icon: Menu,
 		permission: "/menus", // Admin only
 	},
-	{
-		title: "Settings",
-		url: "/settings",
-		icon: Settings,
-		permission: null,
-	},
+	// {
+	// 	title: "Settings",
+	// 	url: "/settings",
+	// 	icon: Settings,
+	// 	permission: null,
+	// },
 	{
 		title: "Opportunities",
 		url: "/opportunities",
@@ -73,7 +73,7 @@ const menuItems = [
 const studentMenuItems = [
 	{
 		title: "Dashboard",
-		url: "/dashboard",
+		url: "/student-dashboard",
 		icon: Home,
 	},
 	{
@@ -92,8 +92,8 @@ const studentMenuItems = [
 		icon: BookOpen,
 	},
 	{
-		title: "Opportunities",
-		url: "/opportunities",
+		title: "Calendar",
+		url: "/calendar",
 		icon: Calendar,
 	}
 ]
