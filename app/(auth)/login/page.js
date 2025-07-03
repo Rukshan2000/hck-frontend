@@ -1,8 +1,8 @@
 import { LoginForm } from "@/components/auth/login-form"
 
 export const metadata = {
-  title: "Sign In - TaskManager",
-  description: "Sign in to your TaskManager account",
+  title: "Sign In - Ciber Wizards",
+  description: "Sign in to your Ciber Wizards account",
 }
 
 export default function LoginPage() {

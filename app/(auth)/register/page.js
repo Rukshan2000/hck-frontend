@@ -1,8 +1,8 @@
 import { RegisterForm } from "@/components/auth/register-form"
 
 export const metadata = {
-  title: "Create Account - TaskManager",
-  description: "Create your TaskManager account",
+  title: "Create Account - Ciber Wizards",
+  description: "Create your Ciber Wizards account",
 }
 
 export default function RegisterPage() {

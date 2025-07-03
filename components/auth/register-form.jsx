@@ -90,7 +90,7 @@ export function RegisterForm() {
 
       toast({
         title: "Account created!",
-        description: "Welcome to TaskManager. You have been automatically signed in.",
+        description: "Welcome to Ciber Wizards. You have been automatically signed in.",
       })
 
       router.push("/dashboard")
